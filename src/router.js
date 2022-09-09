@@ -13,10 +13,11 @@ const template = {
   '#wall': wall(),
 };
 
-export const showSection = () => {
-  const hash = window.location.hash;
-  root.replaceChildren(template[hash]);
+export const showSection = (hash, templateOther = template) => {
+  window.location.hash = hash;
+  console.log(hash);
+  root.replaceChildren(templateOther[hash]);
 };
 
-window.addEventListener('load', showSection);
-window.addEventListener('hashchange', showSection);
+window.addEventListener('load', showSection(window.location.hash));
+window.addEventListener('hashchange', showSection(window.location.hash));
