@@ -2,6 +2,8 @@
 // importamos la funcion que vamos a testear
 import { showSection } from '../src/router.js';
 
+jest.mock('../src/lib/firebaseServices.js');
+
 const loginMock = () => {
   const template = document.createElement('section');
   template.innerHTML = '<p>Hola mundo</p>';
@@ -9,7 +11,7 @@ const loginMock = () => {
 };
 
 const templates = {
-  '#login': loginMock,
+  '#login': loginMock(),
 };
 
 describe('Router', () => {
