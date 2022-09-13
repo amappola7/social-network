@@ -23,10 +23,14 @@ export const loginUser = (email, password) => signInWithEmailAndPassword(auth, e
 
 // Redireccionando
 export const googleSignIn = () => {
-  signInWithRedirect(auth, provider);
+  // signInWithRedirect(auth, provider);
   getRedirectResult(auth)
-    .then(() => {
-      window.location.hash = '#wall';
+    .then((result) => {
+      if (!result) {
+        signInWithRedirect(auth, provider);
+        window.location.hash = '#wall';
+      }
+      console.log(result);
     }).catch((error) => {
       // Handle Errors here.
       const errorCode = error.code;
@@ -38,3 +42,4 @@ export const googleSignIn = () => {
       // ...
     });
 };
+
