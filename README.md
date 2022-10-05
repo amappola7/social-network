@@ -56,7 +56,7 @@ Sobre las recomendaciones de los usuarios iteramos los diseños hasta llegar al 
 * CSS3 y HTML5
 * Jest
 ## Colaboradoras
-[Jelimar León](https://github.com/jelimarl) [Angie Santos](https://github.com/Angie-Santos) [Amappola](https://github.com/amappola7/)
+[Jelimar León](https://github.com/jelimarl) | [Angie Santos](https://github.com/Angie-Santos) | [Amappola](https://github.com/amappola7/)
 
 
 
