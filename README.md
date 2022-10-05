@@ -38,7 +38,7 @@ El objetivo de esta red social es la de conectar a las personas interesadas en e
 🟠 Yo como usuario quiero cerrar sesión para que nadie más pueda acceder.
 
 ## **4. Prototipos**
-![prototipo](./mobile.gif)  
+![Prototipo](./demo.gif)  
 Puedes ver el prototipo de alta fidelidad [aquí](https://www.figma.com/file/Q12DjjRbnFTJiNU7yWEPSA/Social-Network-Laboratoria-%7C-Alta-Fidelidad?node-id=22%3A3) y el prototipo de baja fidelidad [aquí](https://www.figma.com/file/uzortbvWjDu0gNxW5rjYhg/Social-Network-Laboratoria-%7C-Baja-Fidelidad?node-id=33%3A138).
 ## **5. Resultados de los test de usabilidad**
 Los test de usabilidad se aplicaron a nuestros usuarios objetivos, buscamos alrededor de tres personas por test. Se realizaron tanto sobre los prototipos de baja como sobre los de alta, para un total de cuatro test de usabilidad.
