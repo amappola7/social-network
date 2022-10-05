@@ -8,7 +8,7 @@
 * [4. Prototipos](#4-prototipos)
 * [5. Resultados de los test de usabilidad](#5-resultados-de-los-test-de-usabilidad)
 * [6. Detalles técnicos](#6-Detalles-técnicos)
-
+* [Colaboradoras](#Colaboradoras)
 
 ## **1. Introducción**
 SysTEM es una red social para aficionados a las áreas STEM (ciencia, tecnología, ingeniería y matemáticas); donde los usuarios podrán:
